@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tech Guru</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .blur-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 60vw;
+      height: 80vh;
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+      border-radius: 20px;
+      padding: 2em;
+      text-align: center;
+    }
+    /*smooth pop in animation*/
+    .blur-container p {
+      font-size: 1.2em;
+      animation: fadeIn 2s ease-in-out;
+    }
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="nav-footer">
+      <div>
+        <h1>Tech Guru</h1>
+      </div>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./gadget.html">Gadget Showcase</a></li>
+        <li><a href="./comparison.html">Comparison</a></li>
+        <li><a href="./buying_guide.html">Buying Guide</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="hero-container">
+    <img src="image1.png" alt="" class="hero-bg-img" />
+    <div class="hero-text">
+      <h1>Welcome to Tech Guru</h1>
+      <p>
+        Your ultimate destination for the latest tech reviews and
+        comparisons.
+      </p>
+    </div>
+  </div>
+  <div class="hr"></div>
+  <div class="card-container">
+    <div class="card">
+      <h2>Gadget Showcase</h2>
+      <p>
+        Here we showcase all of the latest and greatest gadgets available
+        on the market.
+      </p>
+    </div>
+    <div class="card">
+      <h2>Comparison</h2>
+      <p>
+        Here we provide detailed comparisons between popular tech products to
+        help you make informed decisions.
+      </p>
+    </div>
+    <div class="card">
+      <h2>Buying Guide</h2>
+      <p>
+        Here we offer comprehensive buying guides to assist you in selecting
+        the perfect tech products for your needs.
+      </p>
+    </div>
+  </div>
+  <div class="hr" style="margin-top:20px;"></div>
+  <h1
+    style="font-size:43px; color: white; display: flex; justify-content: center; align-items: center; margin-top: 50px;">
+    WHY IS LATEST TECH IMPORTANT</h1>
+  <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
+    <div class="blur-container">
+      <p>Latest technology fundamentally reshapes how we live, work, and connect. It automates tedious tasks, freeing
+        humans for creative and strategic thinking. Advanced tech enables personalized education, precision medicine,
+        and sustainable energy solutions that protect our planet. It democratizes access to information and resources,
+        bridging socioeconomic gaps. Emerging technologies like AI, quantum computing, and biotechnology unlock
+        unprecedented capabilities in research, manufacturing, and problem-solving. Companies leveraging cutting-edge
+        tools gain competitive advantages, while nations investing in tech leadership secure economic prosperity.
+        Technology also enhances safety through better monitoring systems, predictive analytics, and emergency response
+        capabilities. Ignoring technological advancement means falling behind in an increasingly interconnected,
+        fast-paced world where innovation determines success and relevance.
+      </p>
+    </div>
+  </div>
+<script>
+</script>
+</body>
+
+</html>
